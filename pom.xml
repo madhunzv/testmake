@@ -15,7 +15,7 @@
 			<extensions>true</extensions>
 			<configuration>
 				<linker>
-					<name>g++</name>
+					<name>gcc</name>
 				</linker>
 				<libraries>
 					<library>
