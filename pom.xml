@@ -8,6 +8,7 @@
   
   <build>
 	<plugins>
+	<!--
 		<plugin>
 			<groupId>com.github.maven-nar</groupId>
 			<artifactId>nar-maven-plugin</artifactId>
@@ -23,7 +24,8 @@
 					</library>
 				</libraries>
 			</configuration>
-		<!--
+			-->
+		
 			<groupId>com.github.maven-nar</groupId>
 			<artifactId>nar-maven-plugin</artifactId>
 			<version>3.5.1</version>
@@ -69,7 +71,7 @@
 					</goals>
 				</execution>
 			</executions>
-			-->
+			
 		</plugin>
 	</plugins>
   
