@@ -9,39 +9,6 @@
   <build>
 	<plugins>
 		<plugin>
-	<!--
-		<plugin>
-			<groupId>com.github.maven-nar</groupId>
-			<artifactId>nar-maven-plugin</artifactId>
-			<version>3.5.2</version>
-			<extensions>true</extensions>
-			<configuration>
-				<linker>
-					<name>gcc</name>
-				</linker>
-				<libraries>
-					<library>
-						<type>executable</type>
-					</library>
-				</libraries>
-			</configuration>
-			-->
-		
-			<groupId>com.github.maven-nar</groupId>
-			<artifactId>nar-maven-plugin</artifactId>
-			<version>3.5.1</version>
-			<extensions>true</extensions>
-			<configuration>
-				<libraries>
-					<library>
-						<type>executable</type>
-						<run>true</run>
-					</library>
-				</libraries>
-			</configuration>
-		</plugin>
-		
-		<plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-antrun-plugin</artifactId>
 			<version>1.8</version>
