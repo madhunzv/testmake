@@ -1,5 +1,5 @@
 <project name="ant-makefile invoke" default="compilecpp" basedir=".">
 	<target name="compilecpp">
-		<exec dir="src\main\c++" executable="C:\MinGW\bin\make.exe" />
+		<exec dir="src\main\c++" executable="make" />
 	</target>
 </project>
