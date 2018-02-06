@@ -4,7 +4,6 @@
   <groupId>com.testcpp</groupId>
   <artifactId>cpphelloworld</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>nar</packaging>
   
   <build>
 	<plugins>
